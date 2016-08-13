@@ -778,6 +778,8 @@ section.m-project-layout .wrapper {
         display: block;
         margin: 0 auto;
         box-shadow: 0.3125rem 0.3125rem 0.3125rem #f7f7f7; }
+        section.m-project-layout .wrapper article.image .item-image img.hide {
+          display: none; }
       @media screen and (max-width: 960px) {
         section.m-project-layout .wrapper article.image .item-image {
           float: left;
@@ -1053,6 +1055,11 @@ section.m-project-layout .wrapper {
 .aiga .div-toggler {
   margin-bottom: 20px;
   margin-bottom: 1.25rem; }
+
+.catalyst-workshop {
+  position: relative; }
+  .catalyst-workshop img {
+    position: absolute; }
 
 section.m-resume-layout .wrapper {
   display: block;
