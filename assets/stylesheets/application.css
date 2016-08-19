@@ -767,6 +767,52 @@ section.m-project-layout .wrapper {
     margin-left: 0rem; }
     section.m-project-layout .wrapper article.image:last-child {
       margin-right: 0; }
+    section.m-project-layout .wrapper article.image.full .item-image {
+      float: left;
+      display: block;
+      margin-right: 0%;
+      width: 100%; }
+      section.m-project-layout .wrapper article.image.full .item-image:last-child {
+        margin-right: 0; }
+      section.m-project-layout .wrapper article.image.full .item-image img {
+        box-shadow: none; }
+    section.m-project-layout .wrapper article.image.full .item-text {
+      float: left;
+      display: block;
+      margin-right: 0%;
+      width: 50%;
+      margin-left: 25%;
+      text-align: center;
+      padding-top: 0px;
+      padding-top: 0rem; }
+      section.m-project-layout .wrapper article.image.full .item-text:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 960px) {
+        section.m-project-layout .wrapper article.image.full .item-text {
+          float: left;
+          display: block;
+          margin-right: 0%;
+          width: 66.66667%;
+          margin-left: 16.66667%; }
+          section.m-project-layout .wrapper article.image.full .item-text:last-child {
+            margin-right: 0; } }
+      @media screen and (max-width: 620px) {
+        section.m-project-layout .wrapper article.image.full .item-text {
+          float: left;
+          display: block;
+          margin-right: 0%;
+          width: 100%;
+          margin-left: 0%;
+          text-align: left; }
+          section.m-project-layout .wrapper article.image.full .item-text:last-child {
+            margin-right: 0; } }
+      section.m-project-layout .wrapper article.image.full .item-text select {
+        margin-left: auto;
+        margin-right: auto; }
+        @media screen and (max-width: 620px) {
+          section.m-project-layout .wrapper article.image.full .item-text select {
+            margin-left: inherit;
+            margin-right: inherit; } }
     section.m-project-layout .wrapper article.image .item-image {
       float: left;
       display: block;
@@ -780,6 +826,8 @@ section.m-project-layout .wrapper {
         box-shadow: 0.3125rem 0.3125rem 0.3125rem #f7f7f7; }
         section.m-project-layout .wrapper article.image .item-image img.hide {
           display: none; }
+      section.m-project-layout .wrapper article.image .item-image video {
+        box-shadow: 0.3125rem 0.3125rem 0.3125rem #f7f7f7; }
       @media screen and (max-width: 960px) {
         section.m-project-layout .wrapper article.image .item-image {
           float: left;
