@@ -1030,11 +1030,42 @@ section.m-project-layout .wrapper {
     section.m-project-layout .wrapper article.compare:last-child {
       margin-right: 0; }
     section.m-project-layout .wrapper article.compare .item-text {
+      float: left;
+      display: block;
+      margin-right: 0%;
+      width: 50%;
+      margin-left: 25%;
+      text-align: center;
       padding-bottom: 40px;
-      padding-bottom: 2.5rem;
-      margin: 0 auto;
-      max-width: 60%;
-      text-align: center; }
+      padding-bottom: 2.5rem; }
+      section.m-project-layout .wrapper article.compare .item-text:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 960px) {
+        section.m-project-layout .wrapper article.compare .item-text {
+          float: left;
+          display: block;
+          margin-right: 0%;
+          width: 83.33333%;
+          margin-left: 8.33333%; }
+          section.m-project-layout .wrapper article.compare .item-text:last-child {
+            margin-right: 0; } }
+      @media screen and (max-width: 620px) {
+        section.m-project-layout .wrapper article.compare .item-text {
+          float: left;
+          display: block;
+          margin-right: 0%;
+          width: 100%;
+          margin-left: 0%;
+          text-align: left; }
+          section.m-project-layout .wrapper article.compare .item-text:last-child {
+            margin-right: 0; } }
+      section.m-project-layout .wrapper article.compare .item-text select {
+        margin-left: auto;
+        margin-right: auto; }
+        @media screen and (max-width: 620px) {
+          section.m-project-layout .wrapper article.compare .item-text select {
+            margin-left: inherit;
+            margin-right: inherit; } }
     section.m-project-layout .wrapper article.compare .item-image {
       float: left;
       display: block;
@@ -1042,6 +1073,16 @@ section.m-project-layout .wrapper {
       width: 50%; }
       section.m-project-layout .wrapper article.compare .item-image:last-child {
         margin-right: 0; }
+      @media screen and (max-width: 960px) {
+        section.m-project-layout .wrapper article.compare .item-image {
+          float: left;
+          display: block;
+          margin-right: 0%;
+          width: 45.83333%; }
+          section.m-project-layout .wrapper article.compare .item-image:last-child {
+            margin-right: 0; }
+          section.m-project-layout .wrapper article.compare .item-image:last-child {
+            margin-left: 8.33333%; } }
       @media screen and (max-width: 620px) {
         section.m-project-layout .wrapper article.compare .item-image {
           float: left;
@@ -1090,6 +1131,16 @@ section.m-project-layout .wrapper {
             margin-left: 0%; }
             section.m-project-layout .wrapper article.compare .item-image img:last-child {
               margin-right: 0; } }
+      section.m-project-layout .wrapper article.compare .item-image .desk {
+        display: inherit; }
+        @media screen and (max-width: 620px) {
+          section.m-project-layout .wrapper article.compare .item-image .desk {
+            display: none; } }
+      section.m-project-layout .wrapper article.compare .item-image .mob {
+        display: none; }
+        @media screen and (max-width: 620px) {
+          section.m-project-layout .wrapper article.compare .item-image .mob {
+            display: inherit; } }
       section.m-project-layout .wrapper article.compare .item-image h5 {
         padding-bottom: 20px;
         padding-bottom: 1.25rem;
