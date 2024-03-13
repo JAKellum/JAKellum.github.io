@@ -21,7 +21,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .button
   appearance: none;
   -webkit-transition: all 0.15s ease-out 0s;
   transition: all 0.15s ease-out 0s;
-  padding: 1rem 1.25rem;
+  padding: .75rem 1.25rem;
   -webkit-font-smoothing: antialiased;
   background-color: #FFFFFF;
   border: solid #11BD94 1px;
@@ -249,7 +249,6 @@ h4 {
 }
 
 h4 span {
-  /* color: ; */
   font-weight: 400;
 }
 
@@ -486,9 +485,6 @@ nav .ion-home:hover, nav .ion-chevron-left:hover, nav .ion-chevron-right:hover {
   top: 0;
   left: 0;
   background: rgba(17, 189, 148, 0.9); }
-/* .overlay .ion-home {
-  margin-left: 0;
-} */
 .overlay section {
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
@@ -520,7 +516,7 @@ nav .ion-home:hover, nav .ion-chevron-left:hover, nav .ion-chevron-right:hover {
   transition: all 0.15s ease-out 0s;
   margin-top: .5rem;
   margin-left: 0;
-  margin-right: .5rem;
+  margin-right: 0;
 }
 .overlay section ul li:last-child {
   margin-right: 0;
@@ -626,7 +622,7 @@ section.m-home-layout {
         width: 33.33333%; }
         section.m-home-layout ul li:last-child {
           margin-right: 0; } }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 600px) {
       section.m-home-layout ul li {
         float: left;
         display: block;
